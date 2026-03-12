@@ -9,40 +9,308 @@
 </head>
 
 <body>
+    <nav>
+        <div class="nav-logo">DP.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <header>
-        <h1>Daniel Esteban Parra Ruiz</h1>
-        <p>Full Stack Developer</p>
+        <div class="hero-tag">Available for opportunities</div>
+        <h1><span class="name-highlight">Daniel Parra</span><br>Ruiz</h1>
+        <h2>Full Stack Developer</h2>
+        <p class="hero-desc">
+            Building enterprise-grade web applications with 1+ year of real-world experience.
+            Focused on scalable systems, clean architecture, and meaningful software.
+        </p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>Sobre mí</h2>
-        <p>
-            Desarrollador Full Stack con experiencia en Yii2, Vue, React y Spring Boot.
-            Experiencia mejorando procesos empresariales y creando soluciones escalables.
-        </p>
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="section-label">About</div>
+            <h2 class="section-title">Who I am</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a software developer trained at SENA with real-world experience in enterprise environments.
+                        I've contributed to internal process optimization systems and company web platforms, improving
+                        efficiency and operational performance.
+                    </p>
+                    <p>
+                        Currently pursuing a Technology degree in Software Analysis and Development.
+                        Passionate about scalable systems, backend architecture, and modern web applications.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Year of professional experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Projects in active development</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Enterprise companies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Technologies mastered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="skills">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Frontend: HTML, CSS, JavaScript, React, Vue</li>
-            <li>Backend: Yii2, Spring Boot</li>
-            <li>Base de Datos: MySQL</li>
-            <li>DevOps: Git</li>
-        </ul>
+    <hr class="divider" style="max-width:1100px;margin:auto;padding:0 3rem;">
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-label">Tech Stack</div>
+            <h2 class="section-title">What I work with</h2>
+            <div class="skills-grid">
+                <div class="skill-group">
+                    <div class="skill-group-label">Frontend</div>
+                    <div class="skill-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Vue 2</span>
+                        <span class="tag">Vuetify</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-label">Backend</div>
+                    <div class="skill-tags">
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Yii2</span>
+                        <span class="tag">REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-label">Databases</div>
+                    <div class="skill-tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-label">Tools & Workflow</div>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Agile</span>
+                        <span class="tag">Jira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="contact">
-        <h2>Contacto</h2>
-        <p>Email: danielestebanparraruiz22@gmail.com</p>
-        <p>GitHub: <a href="https://github.com/daniel-parra16" target="_blank">github.com/daniel-parra16</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/daniel-esteban-parra-ruiz-41b249363/" target="_blank">Perfil
-                LinkedIn</a></p>
+    <hr class="divider" style="max-width:1100px;margin:auto;padding:0 3rem;">
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-label">Projects</div>
+            <h2 class="section-title">Currently building</h2>
+            <div class="projects-grid">
+
+                <!-- Vet -->
+                <div class="project-card" style="--card-accent: #34d399;">
+                    <div class="project-status">
+                        <span class="status-dot"></span>
+                        In Development
+                    </div>
+                    <div class="project-icon">🐾</div>
+                    <h3 class="project-title">AnimalCare Manager</h3>
+                    <p class="project-desc">
+                        A complete veterinary clinic management platform, covering the full cycle from patient
+                        registration to appointment scheduling.
+                    </p>
+                    <ul class="project-features">
+                        <li><span class="feature-dot"></span>Supplies & inventory management</li>
+                        <li><span class="feature-dot"></span>Appointment scheduling system</li>
+                        <li><span class="feature-dot"></span>User accounts with pet records</li>
+                        <li><span class="feature-dot"></span>Animal health history tracking</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span class="stack-tag"
+                            style="background:rgba(52,211,153,0.1);color:#34d399;border:1px solid rgba(52,211,153,0.2);">Yii2</span>
+                        <span class="stack-tag"
+                            style="background:rgba(52,211,153,0.1);color:#34d399;border:1px solid rgba(52,211,153,0.2);">Vue
+                            2</span>
+                        <span class="stack-tag"
+                            style="background:rgba(52,211,153,0.1);color:#34d399;border:1px solid rgba(52,211,153,0.2);">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- Automotriz -->
+                <div class="project-card" style="--card-accent: #f59e0b;">
+                    <div class="project-status">
+                        <span class="status-dot" style="background:#f59e0b;"></span>
+                        In Development
+                    </div>
+                    <div class="project-icon">🔧</div>
+                    <h3 class="project-title">INNO-GARAGE System</h3>
+                    <p class="project-desc">
+                        An end-to-end automotive workshop management system designed to streamline operations from
+                        vehicle intake to final invoice.
+                    </p>
+                    <ul class="project-features">
+                        <li><span class="feature-dot" style="background:#f59e0b;"></span>Customer & vehicle registration
+                        </li>
+                        <li><span class="feature-dot" style="background:#f59e0b;"></span>Parts inventory control</li>
+                        <li><span class="feature-dot" style="background:#f59e0b;"></span>Work orders management</li>
+                        <li><span class="feature-dot" style="background:#f59e0b;"></span>Quotes & billing generation
+                        </li>
+                    </ul>
+                    <div class="project-stack">
+                        <span class="stack-tag"
+                            style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.2);">Spring
+                            Boot</span>
+                        <span class="stack-tag"
+                            style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.2);">React</span>
+                        <span class="stack-tag"
+                            style="background:rgba(245,158,11,0.1);color:#f59e0b;border:1px solid rgba(245,158,11,0.2);">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Escolar -->
+                <div class="project-card" style="--card-accent: #818cf8;">
+                    <div class="project-status">
+                        <span class="status-dot" style="background:#818cf8;"></span>
+                        In Development
+                    </div>
+                    <div class="project-icon">🎓</div>
+                    <h3 class="project-title">Cognitio Platform</h3>
+                    <p class="project-desc">
+                        A school management platform that centralizes academic operations and bridges communication
+                        between students, teachers, and parents.
+                    </p>
+                    <ul class="project-features">
+                        <li><span class="feature-dot" style="background:#818cf8;"></span>Grade & assessment tracking
+                        </li>
+                        <li><span class="feature-dot" style="background:#818cf8;"></span>Attendance management</li>
+                        <li><span class="feature-dot" style="background:#818cf8;"></span>Parent communication portal
+                        </li>
+                        <li><span class="feature-dot" style="background:#818cf8;"></span>Schedules & student portal</li>
+                    </ul>
+                    <div class="project-stack">
+                        <span class="stack-tag"
+                            style="background:rgba(129,140,248,0.1);color:#818cf8;border:1px solid rgba(129,140,248,0.2);">Spring
+                            Boot</span>
+                        <span class="stack-tag"
+                            style="background:rgba(129,140,248,0.1);color:#818cf8;border:1px solid rgba(129,140,248,0.2);">React</span>
+                        <span class="stack-tag"
+                            style="background:rgba(129,140,248,0.1);color:#818cf8;border:1px solid rgba(129,140,248,0.2);">TypeScript</span>
+                        <span class="stack-tag"
+                            style="background:rgba(129,140,248,0.1);color:#818cf8;border:1px solid rgba(129,140,248,0.2);">PostgreSQL</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider" style="max-width:1100px;margin:auto;padding:0 3rem;">
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-label">Experience</div>
+            <h2 class="section-title">Where I've worked</h2>
+            <div class="experience-list">
+
+                <div class="experience-item">
+                    <div class="exp-year">10-2024 / 04-2025</div>
+                    <div>
+                        <div class="exp-company">GMóvil SAS</div>
+                        <div class="exp-role">Full Stack Developer · TransMilenio Project</div>
+                        <p class="exp-desc">
+                            Improved and optimized internal company processes by developing custom system features.
+                            Reduced manual workload and improved operational efficiency across key workflows.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="exp-year">05-2025 / 11-2025</div>
+                    <div>
+                        <div class="exp-company">Innova SJ</div>
+                        <div class="exp-role">Full Stack Developer</div>
+                        <p class="exp-desc">
+                            Developed and enhanced internal company web systems, implementing new features
+                            and improving performance and usability for end users.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider" style="max-width:1100px;margin:auto;padding:0 3rem;">
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's connect</h2>
+            <div class="contact-grid">
+                <div class="contact-text">
+                    <p>
+                        I'm open to new opportunities, collaborations, or just a good conversation about tech.
+                        Feel free to reach out through any of the channels below.
+                    </p>
+                    <a href="mailto:danielestebanparraruiz22@gmail.com" class="btn btn-primary">Send an email →</a>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:danielestebanparraruiz22@gmail.com" class="contact-link">
+                        <span class="contact-link-icon">✉️</span>
+                        <span>
+                            <span class="contact-link-label">Email</span>
+                            danielestebanparraruiz22@gmail.com
+                        </span>
+                    </a>
+                    <a href="https://github.com/daniel-parra16" target="_blank" class="contact-link">
+                        <span class="contact-link-icon">⌨️</span>
+                        <span>
+                            <span class="contact-link-label">GitHub</span>
+                            github.com/daniel-parra16
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-esteban-parra-ruiz-41b249363/" target="_blank"
+                        class="contact-link">
+                        <span class="contact-link-icon">💼</span>
+                        <span>
+                            <span class="contact-link-label">LinkedIn</span>
+                            Daniel Esteban Parra Ruiz
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>© 2026 Daniel Parra</p>
+        <span>© 2026 Daniel Parra</span>
+        <span>Built with 🤍 · Bogotá, Colombia</span>
     </footer>
 
 </body>
